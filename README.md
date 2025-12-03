@@ -21,7 +21,7 @@ Making AI interpretable, trustworthy, and auditable.
 
 **PhD Thesis**: Developing falsifiable attribution methods for explainable AI - systems that can be empirically validated and audited.
 
-**Defense**: January 2026 @ Clarkson University
+**Proposal**: January 2026 | **Defense**: November 2026 @ Clarkson University
 
 ---
 
@@ -39,6 +39,7 @@ Making AI interpretable, trustworthy, and auditable.
 
 ## Current Work
 
+- **AI Engineer @ Kymera Systems**: Building intelligent AI orchestration systems
 - **IEEE T-BIOM Submission**: Beta regression framework for bounded biometric performance metrics
 - **Dissertation**: Faithful explanations that withstand adversarial probing
 - **Tools**: Building research automation for reproducible science
@@ -69,7 +70,7 @@ Making AI interpretable, trustworthy, and auditable.
 
 ## Connect
 
-- **Portfolio**: [astoreyai.github.io](https://astoreyai.github.io) *(coming soon)*
+- **Portfolio**: [astoreyai.github.io](https://astoreyai.github.io)
 - **LinkedIn**: [linkedin.com/in/astoreyai](https://www.linkedin.com/in/astoreyai/)
 - **ORCID**: [0009-0009-5560-0015](https://orcid.org/0009-0009-5560-0015)
 - **Email**: storeyaw@clarkson.edu
