@@ -196,8 +196,8 @@ See `astoreyai-profile/MANUAL_ACTIONS.md` for detailed instructions.
 | GitHub Profile README | `~/github/astoreyai-profile/README.md` |
 | GitProfile Config | `~/github/astoreyai.github.io/gitprofile.config.ts` |
 | Manual Actions Guide | `~/github/astoreyai-profile/MANUAL_ACTIONS.md` |
-| 100DaysML Curriculum Plan | `~/github/astoreyai/100daysofml.github.io/CURRICULUM_PLAN_WEEKS_8-21.md` |
-| This Document | `~/github/astoreyai/BRANDING_SYNC.md` |
+| 100DaysML Curriculum Plan | `~/github/astoreyai-profile/CURRICULUM_PLAN_WEEKS_8-21.md` |
+| This Document | `~/github/astoreyai-profile/BRANDING_SYNC.md` |
 
 ---
 
@@ -230,3 +230,4 @@ Portfolio will auto-display your latest 3 Medium posts once published.
 | 2025-12-03 | Fixed GitHub stats badges | GitHub |
 | 2025-12-03 | Added Medium blog strategy | Sync doc |
 | 2025-12-03 | Configured Medium @astoreyai integration | Portfolio |
+| 2025-12-03 | Repo cleanup: consolidated docs to astoreyai-profile | All |
