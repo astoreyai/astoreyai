@@ -61,11 +61,11 @@ Making AI interpretable, trustworthy, and auditable.
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=astoreyai&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=astoreyai&show_icons=true&theme=nord&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=astoreyai&theme=default&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=astoreyai&theme=nord&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
