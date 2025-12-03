@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    .banner {
+      width: 1584px;
+      height: 396px;
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+      position: relative;
+      overflow: hidden;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+    }
+
+    /* Neural network nodes */
+    .node {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(56, 189, 248, 0.15);
+      border: 2px solid rgba(56, 189, 248, 0.4);
+    }
+
+    .node.active {
+      background: rgba(56, 189, 248, 0.3);
+      border-color: rgba(56, 189, 248, 0.8);
+      box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+    }
+
+    /* Connection lines */
+    .connections {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .connections svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .connections line {
+      stroke: rgba(56, 189, 248, 0.2);
+      stroke-width: 1;
+    }
+
+    .connections line.highlight {
+      stroke: rgba(56, 189, 248, 0.5);
+      stroke-width: 2;
+    }
+
+    /* Grid pattern */
+    .grid {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image:
+        linear-gradient(rgba(56, 189, 248, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(56, 189, 248, 0.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+
+    /* Content */
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 80px;
+      transform: translateY(-50%);
+      z-index: 10;
+    }
+
+    .tagline {
+      font-size: 52px;
+      font-weight: 700;
+      color: #f8fafc;
+      letter-spacing: -1px;
+      text-shadow: 0 2px 20px rgba(0,0,0,0.5);
+    }
+
+    .tagline span {
+      color: #38bdf8;
+    }
+
+    .subtitle {
+      font-size: 24px;
+      color: #94a3b8;
+      margin-top: 12px;
+      font-weight: 400;
+      letter-spacing: 2px;
+    }
+
+    .divider {
+      width: 120px;
+      height: 4px;
+      background: linear-gradient(90deg, #38bdf8, #818cf8);
+      margin-top: 20px;
+      border-radius: 2px;
+    }
+
+    /* Glowing orb effect */
+    .orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(60px);
+      opacity: 0.4;
+    }
+
+    .orb1 {
+      width: 300px;
+      height: 300px;
+      background: #38bdf8;
+      top: -100px;
+      right: 200px;
+    }
+
+    .orb2 {
+      width: 200px;
+      height: 200px;
+      background: #818cf8;
+      bottom: -50px;
+      right: 400px;
+    }
+
+    /* Black box visual */
+    .black-box {
+      position: absolute;
+      right: 150px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 280px;
+      height: 200px;
+      perspective: 1000px;
+    }
+
+    .box-face {
+      position: absolute;
+      background: linear-gradient(145deg, #1e293b, #0f172a);
+      border: 2px solid rgba(56, 189, 248, 0.3);
+      box-shadow:
+        inset 0 0 30px rgba(56, 189, 248, 0.1),
+        0 0 40px rgba(56, 189, 248, 0.2);
+    }
+
+    .box-front {
+      width: 180px;
+      height: 140px;
+      left: 50px;
+      top: 30px;
+      transform: rotateY(-15deg) rotateX(5deg);
+    }
+
+    .box-lid {
+      width: 180px;
+      height: 60px;
+      left: 50px;
+      top: -20px;
+      transform: rotateY(-15deg) rotateX(-60deg);
+      transform-origin: bottom;
+      background: linear-gradient(145deg, #334155, #1e293b);
+      border-bottom: none;
+    }
+
+    /* Question marks / reveal effect */
+    .reveal {
+      position: absolute;
+      right: 180px;
+      top: 80px;
+      font-size: 80px;
+      color: rgba(56, 189, 248, 0.6);
+      text-shadow: 0 0 30px rgba(56, 189, 248, 0.8);
+      font-weight: 300;
+    }
+
+    /* Floating particles */
+    .particle {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: #38bdf8;
+      border-radius: 50%;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <!-- Background elements -->
+    <div class="grid"></div>
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+
+    <!-- Neural network visualization -->
+    <div class="connections">
+      <svg>
+        <!-- Layer 1 to Layer 2 -->
+        <line x1="1100" y1="80" x2="1250" y2="120" />
+        <line x1="1100" y1="80" x2="1250" y2="200" />
+        <line x1="1100" y1="160" x2="1250" y2="120" class="highlight"/>
+        <line x1="1100" y1="160" x2="1250" y2="200" />
+        <line x1="1100" y1="160" x2="1250" y2="280" />
+        <line x1="1100" y1="240" x2="1250" y2="200" />
+        <line x1="1100" y1="240" x2="1250" y2="280" />
+        <line x1="1100" y1="320" x2="1250" y2="280" class="highlight"/>
+
+        <!-- Layer 2 to Layer 3 -->
+        <line x1="1250" y1="120" x2="1400" y2="160" />
+        <line x1="1250" y1="200" x2="1400" y2="160" class="highlight"/>
+        <line x1="1250" y1="200" x2="1400" y2="240" />
+        <line x1="1250" y1="280" x2="1400" y2="240" />
+      </svg>
+    </div>
+
+    <!-- Neural nodes - Layer 1 -->
+    <div class="node" style="width: 24px; height: 24px; left: 1088px; top: 68px;"></div>
+    <div class="node active" style="width: 28px; height: 28px; left: 1086px; top: 146px;"></div>
+    <div class="node" style="width: 24px; height: 24px; left: 1088px; top: 228px;"></div>
+    <div class="node" style="width: 20px; height: 20px; left: 1090px; top: 310px;"></div>
+
+    <!-- Neural nodes - Layer 2 -->
+    <div class="node" style="width: 22px; height: 22px; left: 1239px; top: 109px;"></div>
+    <div class="node active" style="width: 26px; height: 26px; left: 1237px; top: 187px;"></div>
+    <div class="node" style="width: 22px; height: 22px; left: 1239px; top: 269px;"></div>
+
+    <!-- Neural nodes - Layer 3 -->
+    <div class="node active" style="width: 30px; height: 30px; left: 1385px; top: 145px;"></div>
+    <div class="node" style="width: 26px; height: 26px; left: 1387px; top: 227px;"></div>
+
+    <!-- Floating particles -->
+    <div class="particle" style="left: 1150px; top: 100px;"></div>
+    <div class="particle" style="left: 1300px; top: 150px;"></div>
+    <div class="particle" style="left: 1200px; top: 250px;"></div>
+    <div class="particle" style="left: 1350px; top: 300px;"></div>
+    <div class="particle" style="left: 1450px; top: 180px;"></div>
+
+    <!-- Main content -->
+    <div class="content">
+      <div class="tagline">Opening the <span>Black Box</span></div>
+      <div class="subtitle">EXPLAINABLE AI RESEARCH</div>
+      <div class="divider"></div>
+    </div>
+  </div>
+</body>
+</html>
