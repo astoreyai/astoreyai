@@ -1,6 +1,39 @@
-# LinkedIn Updates Guide
+# Personal Branding Manual Actions Guide
 
-## 1. Featured Section (ADD THESE)
+**Last Updated**: December 2025
+
+---
+
+## GITHUB ACTIONS
+
+### 1. Update GitHub Bio
+Go to: https://github.com/settings/profile
+
+**Bio** (160 chars max):
+```
+PhD Candidate | Explainable AI | Opening the Black Box | AI Engineer @ Kymera Systems
+```
+
+**Company**: Kymera Systems
+**Location**: (your preference)
+**Website**: https://astoreyai.github.io
+
+### 2. Pin Repositories
+Go to: https://github.com/astoreyai (click "Customize your pins")
+
+**Pin these 6 repos** (in order):
+1. `astoreyai/astoreyai` - Profile README
+2. `astoreyai/money-talks` - Trading education
+3. `astoreyai/ai_scientist` - Research assistant
+4. `astoreyai/claude-skills` - Claude automation
+5. `astoreyai/biometric_fingerprint_mcp` - MCP server
+6. `100daysofml/100daysofml.github.io` - ML curriculum (if you're a member, otherwise pin another)
+
+---
+
+## LINKEDIN ACTIONS
+
+### 1. Featured Section (ADD THESE)
 
 LinkedIn Featured section shows media/links prominently on your profile. Add these 3 items:
 
@@ -12,7 +45,7 @@ LinkedIn Featured section shows media/links prominently on your profile. Add the
 
 ### Item 2: 100 Days of ML
 - **Type**: Link
-- **URL**: https://github.com/astoreyai/100daysofml.github.io
+- **URL**: https://100daysofml.github.io
 - **Title**: 100 Days of Machine Learning
 - **Description**: Complete 35-lesson curriculum from Python basics to XGBoost. Open-source educational resource with Google Colab integration.
 
@@ -32,8 +65,8 @@ Add this block at the END of your current About section:
 
 CONNECT & EXPLORE
 • GitHub: github.com/astoreyai
-• Portfolio: astoreyai.github.io (coming soon)
-• 100 Days of ML: github.com/astoreyai/100daysofml.github.io
+• Portfolio: astoreyai.github.io
+• 100 Days of ML: 100daysofml.github.io
 • ORCID: 0009-0009-5560-0015
 ```
 
@@ -55,7 +88,7 @@ Research Focus:
 
 Dissertation: Developing falsifiable attribution methods that can be empirically validated and audited.
 
-Defense: January 2026
+Proposal: January 2026 | Defense: November 2026
 
 Publication: IEEE T-BIOM submission - Beta regression framework for bounded biometric metrics
 
@@ -80,7 +113,7 @@ My research develops methods to empirically test explanation faithfulness throug
 
 The goal: Make explainability an engineering discipline with measurable standards.
 
-Defense date: January 2026
+Proposal: January 2026 | Defense: November 2026
 
 #ExplainableAI #XAI #PhDLife #MachineLearning #TrustworthyAI
 ```
@@ -138,7 +171,7 @@ PhD Progress Update: Month 6
 
 Next: Adversarial probing experiments on transformer attention
 
-6 months in, 13 months to defense.
+6 months in. Proposal: January 2026. Defense: November 2026.
 
 The hardest part so far? Narrowing scope. XAI is vast - staying focused on falsifiable methods.
 
@@ -153,10 +186,25 @@ Any other PhD candidates in the XAI/trustworthy AI space? Would love to connect.
 
 ## 5. Quick Action Checklist
 
+**GitHub (do first)**:
+- [ ] Update bio at github.com/settings/profile
+- [ ] Pin 6 repos at github.com/astoreyai
+
+**LinkedIn**:
 - [ ] Add Featured section with 2-3 items
 - [ ] Add links block to end of About section
-- [ ] Update Graduate RA description
+- [ ] Update Graduate RA description with Kymera Systems role
 - [ ] Post first content piece this week
 - [ ] Schedule weekly posting (pick a day)
 - [ ] Follow 10-15 XAI/ML researchers
 - [ ] Engage on 5 posts daily for algorithm visibility
+
+---
+
+## What's Already Done (Automated)
+
+- [x] GitHub Profile README (`astoreyai/astoreyai`) - pushed
+- [x] GitProfile portfolio site (`astoreyai.github.io`) - deployed
+- [x] 100DaysML config updated - baseurl, copyright
+- [x] All dates updated to Proposal: Jan 2026 / Defense: Nov 2026
+- [x] Kymera Systems AI Engineer role added everywhere
