@@ -29,7 +29,8 @@ Making AI interpretable, trustworthy, and auditable.
 
 | Project | Description | Status |
 |---------|-------------|--------|
-| [100 Days of ML](https://github.com/astoreyai/100daysofml.github.io) | Complete 35-lesson curriculum: Python basics to XGBoost | ![Stars](https://img.shields.io/github/stars/astoreyai/100daysofml.github.io?style=flat) |
+| [SIFTER](https://github.com/Bespoke-Robot-Society/SIFTER) | NASA Space Apps 2024: ML seismic detection for moon/marsquakes | NASA Hackathon |
+| [100 Days of ML](https://100daysofml.github.io/) | Complete 35-lesson curriculum: Python basics to XGBoost | ![Stars](https://img.shields.io/github/stars/100daysofml/100daysofml.github.io?style=flat) |
 | [Research Assistant](https://github.com/astoreyai/ai_scientist) | PRISMA 2020 + NIH-compliant research workflow automation | 22 skills, 10 agents |
 | [Claude Skills](https://github.com/astoreyai/claude-skills) | Automation skills for Claude Code | 32+ skills |
 
