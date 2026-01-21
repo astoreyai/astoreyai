@@ -29,7 +29,7 @@ Making AI interpretable, trustworthy, and auditable.
 
 | Project | Description | Status |
 |---------|-------------|--------|
-| [Beta Regression Framework](https://github.com/astoreyai/beta-regression-pediatricface) | Statistical framework for bounded biometric performance in child face recognition | IEEE T-BIOM |
+| [Beta Regression Framework](https://github.com/astoreyai/betaregressionpediatricface) | Statistical framework for bounded biometric performance in child face recognition | IEEE T-BIOM |
 | [Agentic AI Seminar](https://github.com/astoreyai/agentic) | Personas & affective prompting as behavioral control surfaces | Clarkson Seminar |
 | [Goblin Forge](https://github.com/astoreyai/goblin-forge) | Multi-agent CLI orchestrator for Linux with tmux isolation | Active Dev |
 | [SIFTER](https://github.com/Bespoke-Robot-Society/SIFTER) | NASA Space Apps 2024: ML seismic detection for moon/marsquakes | NASA Hackathon |
