@@ -21,7 +21,7 @@ Making AI interpretable, trustworthy, and auditable.
 
 **PhD Thesis**: Developing falsifiable attribution methods for explainable AI - systems that can be empirically validated and audited.
 
-**Proposal**: January 2026 | **Defense**: November 2026 @ Clarkson University
+**Proposal Defense**: February 2026 @ Clarkson University
 
 ---
 
@@ -29,22 +29,24 @@ Making AI interpretable, trustworthy, and auditable.
 
 | Project | Description | Status |
 |---------|-------------|--------|
+| [Beta Regression Framework](https://github.com/astoreyai/beta-regression-pediatricface) | Statistical framework for bounded biometric performance in child face recognition | IEEE T-BIOM |
+| [Agentic AI Seminar](https://github.com/astoreyai/agentic) | Personas & affective prompting as behavioral control surfaces | Clarkson Seminar |
+| [Goblin Forge](https://github.com/astoreyai/goblin-forge) | Multi-agent CLI orchestrator for Linux with tmux isolation | Active Dev |
 | [SIFTER](https://github.com/Bespoke-Robot-Society/SIFTER) | NASA Space Apps 2024: ML seismic detection for moon/marsquakes | NASA Hackathon |
 | [100 Days of ML](https://100daysofml.github.io/) | Complete 35-lesson curriculum: Python basics to XGBoost | ![Stars](https://img.shields.io/github/stars/100daysofml/100daysofml.github.io?style=flat) |
-| [EE622: Biometrics Transformers](https://github.com/clarkson-edge/ee622) | 10-week graduate course: ViT for fingerprint, face, gait, speaker, ECG | Clarkson University |
-| [EE513: Embedded Systems](https://github.com/clarkson-edge/ee513_book) | Quarto textbook: Embedded ML on Silicon Labs EFR32xG24 | Course Textbook |
-| [Money Talks](https://github.com/astoreyai/money-talks) | Trading & investing education: 100 notebooks, 5 classes | 37/100 complete |
 | [Research Assistant](https://github.com/astoreyai/ai_scientist) | PRISMA 2020 + NIH-compliant research workflow automation | 22 skills, 10 agents |
-| [Claude Skills](https://github.com/astoreyai/claude-skills) | Automation skills for Claude Code | 32+ skills |
+| [EE622: Biometrics Transformers](https://github.com/clarkson-edge/ee622) | 10-week graduate course: ViT for fingerprint, face, gait, speaker, ECG | Clarkson University |
 
 ---
 
 ## Current Work
 
+- **Dissertation**: Counterfactual frameworks for falsifiable attribution in face verification
+- **IEEE T-BIOM** (Under Review): Beta regression for bounded biometric metrics
+- **IEEE T-BIOM** (In Preparation): AI Act/GDPR/Daubert → XAI validation framework
+- **MDPI Electronics** (Under Review): Hardware security review for embedded processors
+- **In Preparation**: Affective prompting & persona manipulation systematic review
 - **AI Engineer @ Kymera Systems**: Building intelligent AI orchestration systems
-- **IEEE T-BIOM Submission**: Beta regression framework for bounded biometric performance metrics
-- **Dissertation**: Faithful explanations that withstand adversarial probing
-- **Tools**: Building research automation for reproducible science
 
 ---
 
@@ -52,6 +54,7 @@ Making AI interpretable, trustworthy, and auditable.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat&logo=latex&logoColor=white)
