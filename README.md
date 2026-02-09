@@ -34,7 +34,7 @@ Making AI interpretable, trustworthy, and auditable.
 | [Goblin Forge](https://github.com/astoreyai/goblin-forge) | Multi-agent CLI orchestrator for Linux with tmux isolation | Active Dev |
 | [SIFTER](https://github.com/Bespoke-Robot-Society/SIFTER) | NASA Space Apps 2024: ML seismic detection for moon/marsquakes | NASA Hackathon |
 | [100 Days of ML](https://100daysofml.github.io/) | Complete 35-lesson curriculum: Python basics to XGBoost | ![Stars](https://img.shields.io/github/stars/100daysofml/100daysofml.github.io?style=flat) |
-| [Research Assistant](https://github.com/astoreyai/ai_scientist) | PRISMA 2020 + NIH-compliant research workflow automation | 22 skills, 10 agents |
+| [AIRA](https://github.com/astoreyai/aira) | AI Research Assistant: PRISMA 2020 + NIH-compliant research automation | 11 agents, 5 domains |
 | [Money Talks](https://github.com/astoreyai/money-talks) | Trading & investing education: 100 notebooks, 5 classes | Complete |
 | [EE622: Biometrics Transformers](https://github.com/clarkson-edge/ee622) | 10-week graduate course: ViT for fingerprint, face, gait, speaker, ECG | Clarkson University |
 
