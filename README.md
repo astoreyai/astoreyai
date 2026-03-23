@@ -21,7 +21,7 @@ Making AI interpretable, trustworthy, and auditable.
 
 **PhD Thesis**: Developing falsifiable attribution methods for explainable AI - systems that can be empirically validated and audited.
 
-**Proposal Defense**: February 2026 @ Clarkson University
+**Proposal**: January 28, 2026 @ Clarkson University | **Walk**: May 2027
 
 ---
 
@@ -43,11 +43,12 @@ Making AI interpretable, trustworthy, and auditable.
 ## Current Work
 
 - **Dissertation**: Counterfactual frameworks for falsifiable attribution in face verification
+- **IEEE T-BIOM** (Under Review): Dual-backbone vision transformers for pediatric facial age estimation
 - **IEEE T-BIOM** (Under Review): Beta regression for bounded biometric metrics
-- **IEEE T-BIOM** (In Preparation): AI Act/GDPR/Daubert → XAI validation framework
-- **MDPI Electronics** (Under Review): Hardware security review for embedded processors
+- **IEEE T-BIOM** (Under Review): AI Act/GDPR/Daubert → XAI validation framework
+- **MDPI Electronics** (Published): Hardware security review for embedded processors
 - **In Preparation**: Affective prompting & persona manipulation systematic review
-- **AI Engineer @ Kymera Systems**: Building intelligent AI orchestration systems
+- **Founder & CEO @ Kymera Systems**: Building intelligent AI orchestration systems
 
 ---
 
