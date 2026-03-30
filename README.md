@@ -21,7 +21,7 @@ Making AI interpretable, trustworthy, and auditable.
 
 **PhD Thesis**: Developing falsifiable attribution methods for explainable AI - systems that can be empirically validated and audited.
 
-**Proposal**: January 28, 2026 @ Clarkson University | **Walk**: May 2027
+**Proposal**: May 2026 @ Clarkson University | **Walk**: May 2027
 
 ---
 
@@ -29,7 +29,7 @@ Making AI interpretable, trustworthy, and auditable.
 
 | Project | Description | Status |
 |---------|-------------|--------|
-| [Beta Regression Framework](https://github.com/astoreyai/betaregressionpediatricface) | Statistical framework for bounded biometric performance in child face recognition | IEEE T-BIOM |
+| [Beta Regression Framework](https://github.com/astoreyai/beta-regression) | Statistical framework for bounded biometric performance in child face recognition | IEEE T-BIOM (R&R) |
 | [Agentic AI Seminar](https://github.com/astoreyai/agentic) | Personas & affective prompting as behavioral control surfaces | Clarkson Seminar |
 | [Goblin Forge](https://github.com/astoreyai/goblin-forge) | Multi-agent CLI orchestrator for Linux with tmux isolation | Active Dev |
 | [SIFTER](https://github.com/Bespoke-Robot-Society/SIFTER) | NASA Space Apps 2024: ML seismic detection for moon/marsquakes | NASA Hackathon |
@@ -42,13 +42,18 @@ Making AI interpretable, trustworthy, and auditable.
 
 ## Current Work
 
-- **Dissertation**: Counterfactual frameworks for falsifiable attribution in face verification
-- **IEEE T-BIOM** (Under Review): Dual-backbone vision transformers for pediatric facial age estimation
-- **IEEE T-BIOM** (Under Review): Beta regression for bounded biometric metrics
-- **IEEE T-BIOM** (Under Review): AI Act/GDPR/Daubert → XAI validation framework
-- **MDPI Electronics** (Published): Hardware security review for embedded processors
-- **In Preparation**: Affective prompting & persona manipulation systematic review
-- **Founder & CEO @ Kymera Systems**: Building intelligent AI orchestration systems
+- **Dissertation**: Falsifiable attribution methods for explainable AI in face verification
+- **IEEE T-IFS** (Submitted): Falsifiable attribution via counterfactual score prediction
+- **IEEE T-BIOM** (R&R): Beta regression for bounded biometric performance
+- **IEEE T-BIOM** (Submitted): Persistence curves for child face recognition
+- **IEEE T-BIOM** (Submitted): Individual heterogeneity in template degradation
+- **IEEE T-BIOM** (Submitted): XAI policy/standards alignment (AI Act, GDPR, Daubert)
+- **IEEE T-BIOM** (Under Review): Dual-backbone ViTs for pediatric age estimation
+- **IEEE TDSC** (Submitted): Prompt injection analysis via Gandalf challenge
+- **ACM CSUR** (Submitted): FIQA systematic review 2018-2026
+- **NeSy 2026** (Submitted): NSPL neuro-symbolic prompt logic
+- **MDPI Electronics** (Published): Hardware security systematic review
+- **Founder & CEO @ Kymera Systems**: AI orchestration platform
 
 ---
 
