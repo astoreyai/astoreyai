@@ -32,6 +32,7 @@ Making AI interpretable, trustworthy, and auditable.
 | [Beta Regression Framework](https://github.com/astoreyai/beta-regression) | Statistical framework for bounded biometric performance in child face recognition | IEEE T-BIOM (R&R) |
 | [Agentic AI Seminar](https://github.com/astoreyai/agentic) | Personas & affective prompting as behavioral control surfaces | Clarkson Seminar |
 | [Goblin Forge](https://github.com/astoreyai/goblin-forge) | Multi-agent CLI orchestrator for Linux with tmux isolation | Active Dev |
+| [Teleprompt](https://github.com/astoreyai/teleprompt) | Transparent always-on-top teleprompter for Linux: voice pacing, cue points, multi-format ingest, presentation drive | Linux release |
 | [SIFTER](https://github.com/Bespoke-Robot-Society/SIFTER) | NASA Space Apps 2024: ML seismic detection for moon/marsquakes | NASA Hackathon |
 | [100 Days of ML](https://100daysofml.github.io/) | Complete 35-lesson curriculum: Python basics to XGBoost | ![Stars](https://img.shields.io/github/stars/100daysofml/100daysofml.github.io?style=flat) |
 | [AIRA](https://github.com/astoreyai/aira) | AI Research Assistant: PRISMA 2020 + NIH-compliant research automation | 11 agents, 5 domains |
