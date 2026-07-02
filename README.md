@@ -1,6 +1,6 @@
 # Aaron W. Storey
 
-**PhD Candidate | Autonomous Navigation & Lunar Surface Autonomy | Geospatial & AI Vision | Perturbation/Ablation Transparency Testing**
+**PhD Candidate | Lunar Surface Autonomy & SLAM | Computer Vision & World Models | ML Transparency Testing | Founder @ Kymera Systems**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/astoreyai/)
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0009-5560-0015)
@@ -10,18 +10,18 @@
 
 ## Research Focus
 
-Autonomous navigation for robots that have to find their way where GPS does not exist and the lighting is brutal — and the evaluation rigor to prove the systems actually work.
+Autonomous navigation for robots that have to find their way where GPS does not exist and the lighting is brutal. And the evaluation rigor to prove the systems actually work.
 
 | Pillar | Focus |
 |--------|-------|
-| **Autonomous Navigation** | Lunar surface autonomy, illumination-aware navigation, GNSS-denied localization, drift-bounded pose-graph estimation, SLAM, active perception, motion & mission planning |
+| **Autonomous Navigation** | Lunar surface autonomy, illumination-aware navigation, GNSS-denied localization, SLAM, pose-graph estimation with loop closure and DEM-anchored drift correction, active perception, motion & mission planning |
 | **Geospatial Intelligence** | Image geolocation, terrain-referenced navigation (real LOLA lunar terrain), geospatial knowledge graphs & map systems |
 | **AI Vision** | Stereo & multi-camera perception, photometric modeling (BRDF, cast-shadow geometry), Vision Transformers, 3D reconstruction, image quality |
 | **Transparency & Evaluation** | Perturbation/ablation explainability testing, pre-registered leave-one-cue-out validation, counterfactual falsification of model explanations, data-leakage audits, PRISMA-ScR systematic reviews |
 
-**Dissertation (ARGUS)**: Active, illumination-aware, multi-positional navigation for a reconfigurable lunar excavation rover (NASA IPEx lineage). The Sun, the shadows it casts, and the rover's own articulated posture become navigation instruments, fused into one drift-bounded, fiducial-free pose-graph estimator. Built and tested in a conserved-physics lunar simulator with pre-registered, leave-one-cue-out ablations. In development at proposal stage.
+**Dissertation (ARGUS)**: Active, illumination-aware, multi-positional navigation for a reconfigurable lunar excavation rover (NASA IPEx lineage). The Sun, the shadows it casts, and the rover's own articulated posture become navigation instruments, fused into one fiducial-free pose-graph estimator with loop closure and DEM-anchored drift correction. On the real DLR S3LI Mt Etna analog (a 1.03 km crater loop) the estimator ladder reaches **7.99 m absolute trajectory error**, independently reproduced at 7.95 m and below a 21.4 m published baseline on the same data; preliminary batch-smoother evidence, with the criterion-scored online estimator as the proposed core contribution. Built and tested in a conserved-physics lunar simulator with pre-registered, leave-one-cue-out ablations. In development at proposal stage.
 
-**Proposal**: lunar navigation topic in proposal stage @ Clarkson University | **Walk**: May 2027
+**Proposal**: lunar navigation topic in proposal stage @ Clarkson University | **Target completion**: May 2027
 
 ---
 
@@ -29,7 +29,7 @@ Autonomous navigation for robots that have to find their way where GPS does not 
 
 | Project | Description | Status |
 |---------|-------------|--------|
-| **ARGUS** (private repo) | Active, illumination-aware navigation for the NASA IPEx lunar excavation rover: SE(2) pose-graph estimation, stereo depth, 8-camera landmark triangulation, solar-heading and cast-shadow factors | Dissertation, in dev |
+| **ARGUS** (private repo) | Active, illumination-aware navigation for the NASA IPEx lunar excavation rover: SuperPoint visual odometry, visual loop closure, SE(3) pose-graph optimization, DEM height and attitude anchoring, solar-heading and cast-shadow factors | Dissertation, in dev |
 | [dustgym](https://github.com/dustgym/dustgym) | Open-source conserved-physics lunar surface simulator: Godot photometric render on real LOLA terrain, IPEx energy and terramechanics, Gymnasium RL suite, mission planner | Contributor (McCardle leads) |
 | Lunar Navigation Scoping Review | PRISMA-ScR review of SLAM and autonomous navigation for lunar surface operations: 1,161 eligible across five strands, 89 content-verified references | IEEE Access, in prep |
 | GeoForge | Image geolocation framework (CLIP/embedding retrieval + OSINT cues, OSV-5M benchmark) | Geospatial (private) |
@@ -47,6 +47,7 @@ Autonomous navigation for robots that have to find their way where GPS does not 
 - **RA-L / IROS / JFR** (in preparation): ARGUS system and method paper
 - **dustgym** (in preparation, McCardle leads): conserved-physics lunar simulator papers, co-author
 - **Founder & AI Engineer @ Kymera Systems**: multi-agent AI orchestration with explicit safety surfaces and evaluation harnesses
+- **LLM safety & evaluation**: behavioral control surfaces and prompt-injection defense (NSPL framework, manuscript in preparation)
 - Prior research (biometrics / XAI), now led by collaborators at CITeR: counterfactual falsification of attribution methods, face image quality (ISO/IEC 29794-5), longitudinal evaluation statistics
 
 ---
@@ -54,7 +55,7 @@ Autonomous navigation for robots that have to find their way where GPS does not 
 ## Talks & Seminars
 
 - **Behavioral Control Surfaces in Large Language Models** — Clarkson ECE invited seminar, January 2026 (delivered)
-- **Navigating Worlds Without GPS** — three-part public summer seminar series on GNSS-denied and lunar surface navigation, Clarkson Dept. of Computer Science, June 17 / June 24 / July 1, 2026 (scheduled; materials posted after each session)
+- **Navigating Worlds Without GPS** — three-part public summer seminar series on GNSS-denied and lunar surface navigation, Clarkson Dept. of Computer Science, Summer 2026 (sessions 1 and 2 delivered; session 3 on July 2; materials posted after each session)
 
 ---
 
