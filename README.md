@@ -1,6 +1,6 @@
 # Aaron W. Storey
 
-**PhD Candidate | Lunar Surface Autonomy & SLAM | Computer Vision & World Models | ML Transparency Testing | Founder @ Kymera Systems**
+**AI & Autonomous Systems Architect | PhD Candidate, Clarkson University | Autonomous Robotics, Digital Twins & World Models | Founder @ Kymera Systems**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/astoreyai/)
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0009-5560-0015)
@@ -10,7 +10,7 @@
 
 ## Research Focus
 
-Autonomous navigation for robots that have to find their way where GPS does not exist and the lighting is brutal. And the evaluation rigor to prove the systems actually work.
+I architect autonomous AI systems end to end: world models and digital twins, perception, navigation, and mission planning, plus the evaluation rigor to prove the systems actually work. My flagship is autonomous navigation for robots that have to find their way where GPS does not exist and the lighting is brutal.
 
 | Pillar | Focus |
 |--------|-------|
@@ -19,7 +19,7 @@ Autonomous navigation for robots that have to find their way where GPS does not 
 | **AI Vision** | Stereo & multi-camera perception, photometric modeling (BRDF, cast-shadow geometry), Vision Transformers, 3D reconstruction, image quality |
 | **Transparency & Evaluation** | Perturbation/ablation explainability testing, pre-registered leave-one-cue-out validation, counterfactual falsification of model explanations, data-leakage audits, PRISMA-ScR systematic reviews |
 
-**Dissertation (ARGUS)**: Active, illumination-aware, multi-positional navigation for a reconfigurable lunar excavation rover (NASA IPEx lineage). The Sun, the shadows it casts, and the rover's own articulated posture become navigation instruments, fused into one fiducial-free pose-graph estimator with loop closure and DEM-anchored drift correction. On the real DLR S3LI Mt Etna analog (a 1.03 km crater loop) the estimator ladder reaches **7.99 m absolute trajectory error**, independently reproduced at 7.95 m and below a 21.4 m published baseline on the same data; preliminary batch-smoother evidence, with the criterion-scored online estimator as the proposed core contribution. Built and tested in a conserved-physics lunar simulator with pre-registered, leave-one-cue-out ablations. In development at proposal stage.
+**Dissertation (ARGUS)**: Active, illumination-aware, multi-positional navigation for a reconfigurable lunar excavation rover (IPEx lineage). The Sun, the shadows it casts, and the rover's own articulated posture become navigation instruments, fused into one fiducial-free pose-graph estimator with loop closure and DEM-anchored drift correction. On the real DLR S3LI Mt Etna analog (a 1.03 km crater loop) the estimator ladder reaches **7.99 m absolute trajectory error**, independently reproduced at 7.95 m and below a 21.4 m published baseline on the same data; preliminary batch-smoother evidence, with the criterion-scored online estimator as the proposed core contribution. Built and tested in a conserved-physics lunar simulator with pre-registered, leave-one-cue-out ablations. In development at proposal stage.
 
 **Proposal**: lunar navigation topic in proposal stage @ Clarkson University | **Target completion**: May 2027
 
@@ -29,12 +29,12 @@ Autonomous navigation for robots that have to find their way where GPS does not 
 
 | Project | Description | Status |
 |---------|-------------|--------|
-| **ARGUS** (private repo) | Active, illumination-aware navigation for the NASA IPEx lunar excavation rover: SuperPoint visual odometry, visual loop closure, SE(3) pose-graph optimization, DEM height and attitude anchoring, solar-heading and cast-shadow factors | Dissertation, in dev |
+| **ARGUS** (private repo) | Active, illumination-aware navigation for the IPEx-class lunar excavation rover: SuperPoint visual odometry, visual loop closure, SE(3) pose-graph optimization, DEM height and attitude anchoring, solar-heading and cast-shadow factors | Dissertation, in dev |
 | [dustgym](https://github.com/dustgym/dustgym) | Open-source conserved-physics lunar surface simulator: Godot photometric render on real LOLA terrain, IPEx energy and terramechanics, Gymnasium RL suite, mission planner | Contributor (McCardle leads) |
 | Lunar Navigation Scoping Review | PRISMA-ScR review of SLAM and autonomous navigation for lunar surface operations: 1,161 eligible across five strands, 89 content-verified references | IEEE Access, in prep |
 | GeoForge | Image geolocation framework (CLIP/embedding retrieval + OSINT cues, OSV-5M benchmark) | Geospatial (private) |
 | [medicaid-kg](https://github.com/astoreyai/medicaid-kg) | Interactive geospatial knowledge graph + map viewer over a 227M-row national provider-spending dataset | Geospatial, public |
-| [SIFTER](https://github.com/Bespoke-Robot-Society/SIFTER) | NASA Space Apps 2024: ML seismic detection for moon/marsquakes | NASA Hackathon |
+| [SIFTER](https://github.com/Bespoke-Robot-Society/SIFTER) | Space Apps Challenge 2024: ML seismic detection for moon/marsquakes | Hackathon |
 | [Teleprompt](https://github.com/astoreyai/teleprompt) | Transparent always-on-top teleprompter for Linux: voice pacing, cue points, multi-format ingest | Linux release |
 | [100 Days of ML](https://100daysofml.github.io/) | Complete 35-lesson curriculum: Python basics to XGBoost | ![Stars](https://img.shields.io/github/stars/100daysofml/100daysofml.github.io?style=flat) |
 
@@ -69,7 +69,7 @@ Autonomous navigation for robots that have to find their way where GPS does not 
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat&logo=latex&logoColor=white)
 
-**SLAM · Robotics · Sensor Fusion · Motion Planning · Geospatial · Gymnasium · Computer Vision · Evaluation Rigor**
+**Autonomous Systems · Robotics · World Models · Digital Twins · Sensor Fusion · Motion Planning · Geospatial · Computer Vision · Evaluation Rigor**
 
 ---
 
