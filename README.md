@@ -29,7 +29,7 @@ I build and study AI systems that can **reason, coordinate, use tools, maintain 
 
 | Area | Core questions |
 |---|---|
-| **Verification Engineering** | When should an AI system trust its own conclusion? I study verifier dependence, evidence coverage, provenance, uncertainty, falsifiable evaluation, and verification-and-validation workflows. |
+| **Verification Engineering** | When should an AI system trust its own conclusion? I study verifier dependence, evidence coverage, provenance, uncertainty, testable evaluation, and verification-and-validation workflows. |
 | **Agentic Systems Engineering** | How should models, agents, tools, and memory coordinate computation? My work includes multi-model orchestration, graph-based workflows, structured tool use, persistent state, and knowledge representation. |
 | **Applied Autonomous Intelligence** | Do these methods remain reliable in demanding physical and scientific systems? Application areas include biometrics and XAI, GNSS-denied navigation, lunar simulation, edge AI, and secure embedded systems. |
 
@@ -37,12 +37,12 @@ I build and study AI systems that can **reason, coordinate, use tools, maintain 
 
 | Project | What it demonstrates | Status |
 |---|---|---|
-| [**claude-skills**](https://github.com/astoreyai/claude-skills) | Composable Claude Code skills for research, review, memory, engineering, and reproducible AI-assisted workflows | Public |
+| [**circle**](https://github.com/astoreyai/circle) | GitHub-native collaboration framework for research circles: built-in knowledge graph, an MCP server exposing 22 tools to AI assistants, review gates, context packs, and a distributed task system over git | Public · Go · 3 releases |
 | [**lunar-terrain-sidecar**](https://github.com/astoreyai/lunar-terrain-sidecar) | Real-data lunar south-polar terrain generation and Godot integration with ephemeris-driven illumination, provenance, validation, and reproducibility gates | Public · DOI · CI |
-| [**ofiqpy**](https://github.com/AVHBAC/ofiqpy) | Public Python implementation of OFIQ-related face-image-quality component calculations | Public · PyPI |
+| [**ofiqpy**](https://github.com/AVHBAC/ofiqpy) | Public Python implementation of OFIQ-related face-image-quality component calculations | Public · PyPI v0.2.0 |
+| [**okf-tools**](https://github.com/astoreyai/okf-tools) | Validate, lint, migrate, and index Open Knowledge Format bundles; catches broken relationships and silent semantic failures that basic conformance accepts | Public |
 | [**swinvit-face-verification**](https://github.com/astoreyai/swinvit-face-verification) | Reproducible face-verification toolkit comparing SwinFace and ArcFace encoders on public data | Public |
 | [**medicaid-kg**](https://github.com/astoreyai/medicaid-kg) | Knowledge-graph and geospatial exploration of large-scale Medicaid provider-spending data using DuckDB, NetworkX, and agent-assisted querying | Public |
-| [**Teleprompt**](https://github.com/astoreyai/teleprompt) | Crash-resilient Linux teleprompter with recovery, security hardening, and packaged release verification | Released |
 
 ### In development
 
