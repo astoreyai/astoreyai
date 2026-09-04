@@ -1,81 +1,49 @@
-<div align="center">
-
 # Aaron W. Storey
 
-### AI Research Engineer | Trustworthy Agentic Systems
+**AI Research Engineer | Trustworthy Agentic Systems | Verification Engineering**
 
-**Verification Engineering · Multi-Agent AI · AI Reliability · Autonomous Systems**
+PhD Candidate in Computer Science at Clarkson University. Independent AI Research Engineer at Kymera Systems LLC. Based in San Antonio, Texas.
 
-PhD Candidate in Computer Science at Clarkson University  
-Independent AI Research Engineer at Kymera Systems LLC
+I develop multi-agent research prototypes, verification workflows, and scientific software. My work connects model orchestration, tools, and agent memory with provenance and reproducible evaluation. Applications include biometric measurement, computer vision, and autonomous navigation.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/astoreyai/)
-[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0009-5560-0015)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=NIFsdDIAAAAJ)
-[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=flat&logo=githubpages&logoColor=white)](https://astoreyai.github.io)
-[![IEEE](https://img.shields.io/badge/IEEE-Member-00629B?style=flat&logo=ieee&logoColor=white)](https://www.ieee.org/)
+[Portfolio](https://astoreyai.github.io/) · [Resume](https://astoreyai.github.io/documents/Aaron_W_Storey_Resume.pdf) · [Academic CV](https://astoreyai.github.io/documents/Aaron_W_Storey_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/astoreyai/) · [ORCID](https://orcid.org/0009-0009-5560-0015) · [Google Scholar](https://scholar.google.com/citations?user=NIFsdDIAAAAJ)
 
-</div>
+## Selected software
 
----
+| Project                                                                             | Work                                                                                                                                                                                        |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [circle](https://github.com/astoreyai/circle)                                       | Research collaboration in Go: knowledge graph, shared memory, artifact tracking, review gates, and 22 MCP tools over git.                                                                   |
+| [ofiqpy](https://github.com/AVHBAC/ofiqpy)                                          | Python implementation of the BSI OFIQ v1.1.0 profile: 27 face-image-quality components and a unified score, model integrity checks, and C++ comparison workflows.                           |
+| [okf-tools](https://github.com/astoreyai/okf-tools)                                 | Validation, linting, migration, and indexing for Open Knowledge Format bundles, including relationship and semantic checks.                                                                 |
+| [lunar-terrain-sidecar](https://github.com/astoreyai/lunar-terrain-sidecar)         | Lunar terrain authoring for Godot robotics simulation using LOLA/PGDA terrain, ephemeris-derived illumination, and provenance. [Software archive](https://doi.org/10.5281/zenodo.22014046). |
+| [swinvit-face-verification](https://github.com/astoreyai/swinvit-face-verification) | Common evaluation interface for SwinFace and ArcFace encoders over public benchmark data, with integrity checks and documented limitations.                                                 |
+| [medicaid-kg](https://github.com/astoreyai/medicaid-kg)                             | Knowledge-graph and geospatial exploration of the 227-million-row HHS Medicaid provider-spending dataset using DuckDB, NetworkX, and agent-assisted querying.                               |
 
-I build and study AI systems that can **reason, coordinate, use tools, maintain persistent state, and expose the evidence behind their conclusions**. My work combines agentic systems engineering with verification, provenance, uncertainty, reproducible evaluation, and applied autonomous intelligence.
+[OpenFIQA Studio](https://github.com/astoreyai/openfiqa-studio) is **design-stage work** on a scientific IDE for biometric quality and verification research. The public repository contains architecture, scientific schemas, and decision records.
 
-<p align="center">
-  <strong>Evidence → State → Reasoning → Verification → Action</strong>
-</p>
+## Selected publications
 
-## Research Program
+**Published**
 
-| Area | Core questions |
-|---|---|
-| **Verification Engineering** | When should an AI system trust its own conclusion? I study verifier dependence, evidence coverage, provenance, uncertainty, testable evaluation, and verification-and-validation workflows. |
-| **Agentic Systems Engineering** | How should models, agents, tools, and memory coordinate computation? My work includes multi-model orchestration, graph-based workflows, structured tool use, persistent state, and knowledge representation. |
-| **Applied Autonomous Intelligence** | Do these methods remain reliable in demanding physical and scientific systems? Application areas include biometrics and XAI, GNSS-denied navigation, lunar simulation, edge AI, and secure embedded systems. |
+- Ali Kia, Aaron W. Storey, and Masudul H. Imtiaz. **Advanced Hardware Security on Embedded Processors: A 2026 Systematic Review.** _Electronics_, 15(5), 1135 (2026). [DOI](https://doi.org/10.3390/electronics15051135).
 
-## Selected Public Projects
+**Accepted**
 
-| Project | What it demonstrates | Status |
-|---|---|---|
-| [**circle**](https://github.com/astoreyai/circle) | GitHub-native collaboration framework for research circles: built-in knowledge graph, an MCP server exposing 22 tools to AI assistants, review gates, context packs, and a distributed task system over git | Public · Go · 3 releases |
-| [**lunar-terrain-sidecar**](https://github.com/astoreyai/lunar-terrain-sidecar) | Real-data lunar south-polar terrain generation and Godot integration with ephemeris-driven illumination, provenance, validation, and reproducibility gates | Public · DOI · CI |
-| [**ofiqpy**](https://github.com/AVHBAC/ofiqpy) | Public Python implementation of OFIQ-related face-image-quality component calculations | Public · PyPI v0.2.0 |
-| [**okf-tools**](https://github.com/astoreyai/okf-tools) | Validate, lint, migrate, and index Open Knowledge Format bundles; catches broken relationships and silent semantic failures that basic conformance accepts | Public |
-| [**swinvit-face-verification**](https://github.com/astoreyai/swinvit-face-verification) | Reproducible face-verification toolkit comparing SwinFace and ArcFace encoders on public data | Public |
-| [**medicaid-kg**](https://github.com/astoreyai/medicaid-kg) | Knowledge-graph and geospatial exploration of large-scale Medicaid provider-spending data using DuckDB, NetworkX, and agent-assisted querying | Public |
+- Aaron W. Storey and Masudul H. Imtiaz. **A Three-Channel Audit of the Biometric Evidence Chain.** IEEE AIBThings 2026.
+- Aaron W. Storey, Ali Kia, and Masudul H. Imtiaz. **LLM on the Edge: A 2026 Perspective.** IEEE AIBThings 2026.
+- Aaron W. Storey, Ajan Ahmed, Yash Sukhdeve, Masudul H. Imtiaz, and Sumona Mondal. **Nonparametric Template Persistence Curves for Child Face Recognition via Beta Generalized Additive Models.** IEEE UEMCON 2026.
 
-### In development
+Publication statuses follow my September 4, 2026 CV, with status records dated September 1. Accepted papers are listed separately from published work.
 
-[**OpenFIQA Studio**](https://github.com/astoreyai/openfiqa-studio) is a local-first scientific IDE for biometric quality, verification, controlled degradation experiments, and reproducible evaluation. The public repository currently contains the product architecture, scientific schemas, decision records, and phased build plan; the application itself is still under construction.
+## Background
 
-## Selected Publications
+- **Clarkson University, AVHBAC Laboratory:** Graduate Research Assistant, Autonomous Systems and AI, June 2026 to present.
+- **Kymera Systems LLC:** Independent AI Research Engineer, August 2025 to present.
+- **Clarkson University, CITeR:** Graduate Research Assistant, Trustworthy AI and Biometrics, June 2025 to May 2026.
+- **Education:** PhD Candidate, Computer Science, Clarkson University; MS, Artificial Intelligence, Maryville University; BS, Information Technology, American Military University.
+- **Teaching:** Nine guest lectures for EE622 Advanced Biometrics; co-created the free [100 Days of Machine Learning](https://100daysofml.github.io/) curriculum.
+- **Earlier career:** U.S. Army veteran with 15 years of technical operations and leadership experience, including data and educational-technology work at the Defense Health Agency.
 
-### Published
+**Tools:** Python, Go, R, SQL, PyTorch, scikit-learn, FastAPI, DuckDB, Docker, Linux, Git, ROS2, OpenCV, and Godot.
 
-- **Advanced Hardware Security on Embedded Processors: A 2026 Systematic Review.** *Electronics*, 15(5), 1135, 2026. [DOI](https://doi.org/10.3390/electronics15051135)
-
-### Accepted
-
-- **A Three-Channel Audit of the Biometric Evidence Chain.** IEEE AIBThings 2026.
-- **LLM on the Edge: A 2026 Perspective.** IEEE AIBThings 2026.
-- **Nonparametric Template Persistence Curves for Child Face Recognition via Beta Generalized Additive Models.** IEEE UEMCON 2026.
-
-## Open Research Practice
-
-I treat reproducibility and claim boundaries as part of the engineering result: explicit provenance, versioned environments, public data where permitted, automated checks, release gates, and direct reporting of negative results and limitations.
-
-## Technical Toolkit
-
-| Domain | Tools and methods |
-|---|---|
-| **Agentic AI** | Multi-agent orchestration, tool-using agents, local and hybrid LLM workflows, knowledge graphs, persistent state |
-| **Machine Learning & Vision** | PyTorch, scikit-learn, Vision Transformers, face verification, image quality, attribution testing |
-| **Scientific Computing** | Python, R, SQL, statistical modeling, uncertainty quantification, reproducible experimentation |
-| **Systems Engineering** | FastAPI, Docker, Linux, Git, DuckDB, CI/CD, typed interfaces and validation |
-| **Autonomous Systems** | ROS2, OpenCV, Godot, SLAM, pose graphs, sensor fusion, GNSS-denied navigation |
-
----
-
-<p align="center">
-  <strong>Evidence-first design · Trust through verification · Intelligence with accountability</strong>
-</p>
+For research collaboration or AI research engineering opportunities: [storeyaw@clarkson.edu](mailto:storeyaw@clarkson.edu).
