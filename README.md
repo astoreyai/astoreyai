@@ -1,10 +1,19 @@
 # Aaron W. Storey
 
-**AI Research Engineer | Trustworthy Agentic Systems | Verification Engineering | Multi-Agent AI**
+**AI Research Engineer | Trustworthy AI Evaluation | Model Selection for Language-Based Decisions | Responsible AI**
 
-I build research software for multi-agent systems, AI evaluation, and computer vision. I am a PhD candidate in Computer Science at Clarkson University and an independent AI research engineer at Kymera Systems LLC, based in San Antonio, Texas.
+My in-progress doctoral research at Clarkson University, advised by Dr. Jeanna Matthews, asks when a text classifier is adequate for a specific decision rather than simply best on a benchmark. I am developing a consequence-driven framework that converts what errors cost the people who act on a model's output into operating requirements such as recall floors, false-positive limits and calibration, then qualifies and selects candidate models against them with explicit uncertainty bounds. The framework and study protocol are in progress; no evaluation results are claimed yet.
+
+I also build research software for multi-agent systems, AI evaluation, and computer vision. I am a PhD candidate in Computer Science at Clarkson University and an independent AI research engineer at Kymera Systems LLC, based in San Antonio, Texas.
 
 [Portfolio](https://astoreyai.github.io/) · [Resume](https://astoreyai.github.io/documents/Aaron_W_Storey_Resume.pdf) · [Academic CV](https://astoreyai.github.io/documents/Aaron_W_Storey_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/astoreyai/) · [ORCID](https://orcid.org/0009-0009-5560-0015) · [Google Scholar](https://scholar.google.com/citations?user=NIFsdDIAAAAJ)
+
+## Current research
+
+- **Question:** deciding when a language classifier is adequate for a specific decision: turning the consequences of errors into measurable requirements, then selecting and qualifying models against them with explicit uncertainty.
+- **Planned methods:** probability calibration, selective prediction and deferral, interval estimation (Wilson bounds, bootstrap), and non-inferiority and equivalence testing.
+- **Worked case:** detecting subjectively biased wording in Wikipedia sentences to support human editors, using the WIKIBIAS benchmark.
+- **Status:** a proposed doctoral research direction. The framework and study protocol are in progress; no results or publications from it exist yet.
 
 ## Selected software
 
@@ -38,14 +47,15 @@ Publication record updated September 8, 2026.
 
 ## Background
 
-- **Clarkson University, AVHBAC Laboratory:** Graduate Research Assistant, Autonomous Systems and AI, June 2026 to present. Simulation and evaluation for GNSS-denied navigation, perception, and sensor fusion.
+- **Clarkson University:** PhD Candidate in Computer Science, advised by Jeanna Matthews; member, Explainability & Transparency Group, since September 2026.
 - **Kymera Systems LLC:** Independent AI Research Engineer, August 2025 to present. Multi-agent prototypes and verification workflows.
+- **Clarkson University, AVHBAC Laboratory:** Graduate Research Assistant, Autonomous Systems and AI, June 2026 to September 2026. Simulation and evaluation for GNSS-denied navigation, perception, and sensor fusion.
 - **Clarkson University, CITeR:** Graduate Research Assistant, Trustworthy AI and Biometrics, June 2025 to May 2026. Biometric measurement, explainable AI, and face-image quality.
-- **Education:** PhD study at Clarkson University; M.S. in Artificial Intelligence, Maryville University (2024); B.S. in Information Technology, American Military University (2017).
+- **Education:** PhD study at Clarkson University from January 2025; M.S. in Artificial Intelligence, Maryville University (2024); B.S. in Information Technology, American Military University (2017).
 - **Teaching:** Nine guest lectures for EE622 Advanced Biometrics; co-creator of the free [100 Days of Machine Learning](https://100daysofml.github.io/) curriculum.
 
 Before graduate research, I served in the **United States Army, August 2002 to January 2018**, across medical operations, technical training, information management, and deployed communications, including Defense Health Agency assignments. I completed my undergraduate IT degree during service.
 
-**Tools:** Python, Go, R, SQL, PyTorch, scikit-learn, FastAPI, DuckDB, Docker, Linux, Git, ROS2, OpenCV, and Godot.
+**Tools:** Python, Go, R, SQL, PyTorch, Hugging Face Transformers, scikit-learn, FastAPI, DuckDB, Docker, Linux, Git, ROS2, OpenCV, and Godot.
 
 For research collaboration or AI research engineering opportunities: [storeyaw@clarkson.edu](mailto:storeyaw@clarkson.edu).
