@@ -32,7 +32,7 @@ I also build research software for multi-agent systems, AI evaluation, and compu
 
 ## Selected publications
 
-Publication record updated September 8, 2026.
+Publication record updated November 1, 2026.
 
 **Published**
 
@@ -42,10 +42,12 @@ Publication record updated September 8, 2026.
 
 - Aaron W. Storey and Masudul H. Imtiaz. **A Three-Channel Audit of the Biometric Evidence Chain.** IEEE AIBThings 2026. Presented September 6, 2026; proceedings publication pending.
 - Aaron W. Storey, Ali Kia, and Masudul H. Imtiaz. **LLM on the Edge: A 2026 Perspective.** IEEE AIBThings 2026. Presented September 6, 2026; proceedings publication pending.
+- Aaron W. Storey, Ajan Ahmed, Yash Sukhdeve, Masudul H. Imtiaz, and Sumona Mondal. **Nonparametric Template Persistence Curves for Child Face Recognition via Beta Generalized Additive Models.** IEEE UEMCON 2026. Presented October 11, 2026.
 
-**Accepted; presentation pending**
+## Talks and seminars
 
-- Aaron W. Storey, Ajan Ahmed, Yash Sukhdeve, Masudul H. Imtiaz, and Sumona Mondal. **Nonparametric Template Persistence Curves for Child Face Recognition via Beta Generalized Additive Models.** IEEE UEMCON 2026.
+- **Behavioral Control Surfaces in Large Language Models.** Invited seminar, Department of Electrical and Computer Engineering, Clarkson University, January 22, 2026. [Slides (PDF)](https://astoreyai.github.io/talks/2026-01-22_behavioral-control-surfaces.pdf).
+- **Navigating Worlds Without GPS: Off-World Autonomous Navigation.** Three-session public research seminar series, Clarkson University, June 18, June 25, and July 2, 2026. Dead reckoning and SLAM, illumination as a navigation instrument, and autonomous construction on mutable terrain.
 
 ## Background
 
