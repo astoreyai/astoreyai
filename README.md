@@ -2,7 +2,7 @@
 
 **AI Research Engineer | Trustworthy AI Evaluation | Model Selection for Language-Based Decisions | Responsible AI**
 
-My in-progress doctoral research at Clarkson University, advised by Dr. Jeanna Matthews, asks when a text classifier is adequate for a specific decision rather than simply best on a benchmark. I am developing a consequence-driven framework that converts what errors cost the people who act on a model's output into operating requirements such as recall floors, false-positive limits and calibration, then qualifies and selects candidate models against them with explicit uncertainty bounds. The framework and study protocol are in progress; no evaluation results are claimed yet.
+My in-progress doctoral research at Clarkson University, advised by Dr. Jeanna Matthews, asks when a text classifier is adequate for a specific decision rather than simply best on a benchmark, and whether additional inference computation improves its decisions enough to justify the cost. Requirements come from published deployment practice, and candidate models are compared against a fixed reference with explicit uncertainty bounds and measured cost. No evaluation results are published yet.
 
 I also build research software for multi-agent systems, AI evaluation, and computer vision. I am a PhD candidate in Computer Science at Clarkson University and an independent AI research engineer at Kymera Systems LLC, based in San Antonio, Texas.
 
@@ -10,10 +10,10 @@ I also build research software for multi-agent systems, AI evaluation, and compu
 
 ## Current research
 
-- **Question:** deciding when a language classifier is adequate for a specific decision: turning the consequences of errors into measurable requirements, then selecting and qualifying models against them with explicit uncertainty.
-- **Planned methods:** probability calibration, selective prediction and deferral, interval estimation (Wilson bounds, bootstrap), and non-inferiority and equivalence testing.
+- **Question:** deciding when a language classifier is adequate for a specific decision and whether extra inference computation earns its cost, testing candidate models against requirements from published deployment practice with explicit uncertainty.
+- **Planned methods:** non-inferiority testing against a fixed reference, requirement verdicts from one-sided lower confidence bounds, measured inference cost, probability calibration, and selective prediction and deferral.
 - **Worked case:** detecting subjectively biased wording in Wikipedia sentences to support human editors, using the WIKIBIAS benchmark.
-- **Status:** a proposed doctoral research direction. The framework and study protocol are in progress; no results or publications from it exist yet.
+- **Status:** a proposed doctoral research direction. No results or publications from it have been published yet.
 
 ## Selected software
 
@@ -25,6 +25,8 @@ I also build research software for multi-agent systems, AI evaluation, and compu
 | [lunar-terrain-sidecar](https://github.com/astoreyai/lunar-terrain-sidecar) | Lunar terrain authoring for Godot robotics simulation using LOLA/PGDA terrain, ephemeris-derived illumination, and provenance. [Software archive](https://doi.org/10.5281/zenodo.22014046). |
 | [swinvit-face-verification](https://github.com/astoreyai/swinvit-face-verification) | Common evaluation interface for SwinFace and ArcFace encoders over public benchmark data, with integrity checks and documented limitations. |
 | [medicaid-kg](https://github.com/astoreyai/medicaid-kg) | Knowledge-graph and geospatial exploration of the 227-million-row HHS Medicaid provider-spending dataset using DuckDB, NetworkX, and agent-assisted querying. |
+| [agent-keyring](https://github.com/astoreyai/agent-keyring) | Local credential broker for AI agents on Linux: a loopback proxy injects real credentials so keys stay out of environment files, logs, and model context. Public snapshot with a threat model and security audit. |
+| [hostdesk](https://github.com/astoreyai/hostdesk) | Go Linux service desk that discovers systemd services, containers, sockets, and Tailscale routes, with guarded start, stop, and restart. Release v0.1.0. |
 
 [OpenFIQA Studio](https://github.com/astoreyai/openfiqa-studio) is a **design-stage** scientific environment for biometric quality and verification research. The repository contains its architecture, scientific schemas, and design records.
 
