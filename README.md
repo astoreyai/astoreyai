@@ -38,6 +38,10 @@ Publication record updated November 1, 2026.
 
 - Ali Kia, Aaron W. Storey, and Masudul H. Imtiaz. **Advanced Hardware Security on Embedded Processors: A 2026 Systematic Review.** _Electronics_, 15(5), 1135 (2026). Published March 9, 2026. [DOI](https://doi.org/10.3390/electronics15051135).
 
+**Preprint**
+
+- Yash Sukhdeve, Aaron W. Storey, and Masudul H. Imtiaz. **Which Acoustic Features Survive Compression? Tracker-Estimated First-Formant Statistics for Codec-Robust Audio Deepfake Detection.** [arXiv:2611.13258](https://arxiv.org/abs/2611.13258) [cs.SD], November 9, 2026. Not peer reviewed.
+
 **Accepted and presented**
 
 - Aaron W. Storey and Masudul H. Imtiaz. **A Three-Channel Audit of the Biometric Evidence Chain.** IEEE AIBThings 2026. Presented September 6, 2026; proceedings publication pending.
