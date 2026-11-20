@@ -32,21 +32,18 @@ I also build research software for multi-agent systems, AI evaluation, and compu
 
 ## Selected publications
 
-Publication record updated November 1, 2026.
+Publication record updated November 20, 2026.
 
 **Published**
 
 - Ali Kia, Aaron W. Storey, and Masudul H. Imtiaz. **Advanced Hardware Security on Embedded Processors: A 2026 Systematic Review.** _Electronics_, 15(5), 1135 (2026). Published March 9, 2026. [DOI](https://doi.org/10.3390/electronics15051135).
+- Aaron W. Storey and Masudul H. Imtiaz. **A Three-Channel Audit of the Biometric Evidence Chain.** IEEE AIBThings 2026, pp. 1-5. Presented September 6, 2026. [DOI](https://doi.org/10.1109/AIBThings71029.2026.11772075).
+- Aaron W. Storey, Ali Kia, and Masudul H. Imtiaz. **LLM on the Edge: A 2026 Perspective.** IEEE AIBThings 2026, pp. 1-5. Presented September 6, 2026. [DOI](https://doi.org/10.1109/AIBThings71029.2026.11771384).
+- Aaron W. Storey, Ajan Ahmed, and Masudul H. Imtiaz. **Nonparametric Template Persistence Curves for Child Face Recognition via Beta Generalized Additive Models.** IEEE UEMCON 2026, pp. 653-657. Presented October 11, 2026. [DOI](https://doi.org/10.1109/UEMCON70256.2026.11775500).
 
 **Preprint**
 
 - Yash Sukhdeve, Aaron W. Storey, and Masudul H. Imtiaz. **Which Acoustic Features Survive Compression? Tracker-Estimated First-Formant Statistics for Codec-Robust Audio Deepfake Detection.** [arXiv:2611.13258](https://arxiv.org/abs/2611.13258) [cs.SD], November 9, 2026. Not peer reviewed.
-
-**Accepted and presented**
-
-- Aaron W. Storey and Masudul H. Imtiaz. **A Three-Channel Audit of the Biometric Evidence Chain.** IEEE AIBThings 2026. Presented September 6, 2026; proceedings publication pending.
-- Aaron W. Storey, Ali Kia, and Masudul H. Imtiaz. **LLM on the Edge: A 2026 Perspective.** IEEE AIBThings 2026. Presented September 6, 2026; proceedings publication pending.
-- Aaron W. Storey, Ajan Ahmed, Yash Sukhdeve, Masudul H. Imtiaz, and Sumona Mondal. **Nonparametric Template Persistence Curves for Child Face Recognition via Beta Generalized Additive Models.** IEEE UEMCON 2026. Presented October 11, 2026.
 
 ## Talks and seminars
 
