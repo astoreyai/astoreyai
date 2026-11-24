@@ -19,7 +19,7 @@ I also build research software for multi-agent systems, AI evaluation, and compu
 
 | Project | Focus |
 | --- | --- |
-| [circle](https://github.com/astoreyai/circle) | Go research-collaboration framework with a knowledge graph, shared memory, artifact tracking, review gates, and 22 MCP tools over git. |
+| [circle](https://astoreyai.github.io/software/circle/) | Go research-collaboration tool: shared memory, artifact tracking and a knowledge graph in a git repository, with seven read-only MCP tools for AI assistants. Overview page; the source is not public yet. |
 | [ofiqpy](https://github.com/AVHBAC/ofiqpy) | Python implementation of the BSI OFIQ v1.1.0 profile: 27 face-image-quality components and a unified score, model integrity checks, and C++ comparison workflows. [PyPI](https://pypi.org/project/ofiqpy/). |
 | [okf-tools](https://github.com/astoreyai/okf-tools) | Validation, linting, migration, and indexing for Open Knowledge Format bundles, including relationship and semantic checks. |
 | [lunar-terrain-sidecar](https://github.com/astoreyai/lunar-terrain-sidecar) | Lunar terrain authoring for Godot robotics simulation using LOLA/PGDA terrain, ephemeris-derived illumination, and provenance. [Software archive](https://doi.org/10.5281/zenodo.22014046). |
