@@ -2,3 +2,6 @@
 LINKEDIN_COPY_PASTE.md
 LINKEDIN_AUDIT.md
 BRANDING_SYNC.md
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
